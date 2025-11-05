@@ -1,0 +1,73 @@
+/* === Encabezados h1 === */
+h1 {
+  color: red;
+  font-family: 'Kenia', sans-serif;
+  font-size: 28pt;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/* === Encabezados h2 === */
+h2 {
+  color: orange;
+  font-family: 'Kenia', sans-serif;
+  font-size: 22pt;
+  font-weight: 400;
+  text-decoration: underline;
+  text-shadow: 2px 2px 4px gray;
+}
+
+/* === Párrafos === */
+p {
+  color: gray;
+  font-family: "Times New Roman", serif;
+  font-size: 12pt;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* === Párrafos dentro de secciones === */
+section p {
+  color: black;
+}
+
+/* === Texto en negrita dentro de párrafos === */
+p b, p strong {
+  color: red;
+  font-weight: 900;
+}
+
+/* === Fondo alterno para articles === */
+article:nth-child(odd) {
+  background-color: green;
+}
+
+article:nth-child(even) {
+  background-color: lightgreen;
+}
+
+/* === IDs personalizados === */
+#cabecera {
+  background-color: #fce5cd;
+  border-bottom: 3px solid red;
+}
+
+#menu {
+  background-color: #ffe599;
+  padding: 10px;
+}
+
+#momentos {
+  border-left: 4px solid orange;
+  padding: 10px;
+}
+
+#pie {
+  background-color: #ddd;
+  border-top: 3px solid red;
+  text-align: center;
+  padding: 10px;
+}
