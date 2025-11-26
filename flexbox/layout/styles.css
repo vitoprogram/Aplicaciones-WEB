@@ -1,0 +1,36 @@
+/* CONTENEDOR GENERAL */
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.bloque {
+  border: 2px solid #333;
+  padding: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  margin: 5px;
+  background-color: #006b3c;
+}
+
+.sec {
+  margin: 5px;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.sec-secundaria {
+  order: 1;
+  flex: 0 0 200px;
+}
+
+.sec-principal {
+  order: 2;
+  flex: 1;
+}
