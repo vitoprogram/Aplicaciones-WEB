@@ -16,4 +16,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ./
+          # IMPORTANTE: Asegúrate de que este nombre sea igual al de tu carpeta en AwardSpace
+          server-dir: victorkatsev.atwebpages.com/
+          dry-run: false
